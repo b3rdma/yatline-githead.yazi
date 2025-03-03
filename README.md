@@ -2,9 +2,17 @@
 
 Manual clone of [yatline-githead.yazi](https://github.com/imsi32/yatline-githead.yazi) for supporting [yatline.yazi](https://github.com/imsi32/yatline.yazi)
 
+The reason I modified this is because whenever I hovered on a `.git` directory
+within a repo, the preview pane was flickering. I noticed that there were jobs
+running (shown by `w`) which were `Running fetchers for git on 19 target(s)`.
+This was causing the flickering and so I used githead.yazi for inspiration to
+manage the update of the git information.
+
 > [!IMPORTANT]
 > This repository has been created for my use case and I have no plans to update except for breaking changes.
-> Working flawlessly on Apple Silicon MBP M4.
+> Working on Apple Silicon MBP M4 with minor issues, like not updating the info
+> on the header bar when exiting a directory within the repo. Only works when
+> entering the repo currently. One to work on.
 > Details below are from the githead repo.
 
 All supported features are listed [here](#features)
